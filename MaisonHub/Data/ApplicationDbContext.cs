@@ -12,5 +12,7 @@ namespace MaisonHub.Data
         }
 
         public DbSet<Dishwasher>? Dishwashers { get; set; }
+
+        public DbSet<Garbage>? Garbage { get; set; }
     }
 }
